@@ -8,14 +8,14 @@ output: github_document
 
 It supports both numeric and categorical threats, weighted scoring, and classification into low/moderate/high/severe categories.
 
-## ✨ Features
+## Features
 
 - Normalize threat values using max observed thresholds
 - Calculate composite threat intensity score (T)
 - Classify threat severity level
 - Includes example data and reproducible tests
 
-## 📦 Installation
+## Installation
 
 You can install the development version from local:
 
