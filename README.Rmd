@@ -1,34 +1,24 @@
-# vThreats <img src="https://img.shields.io/badge/R%20package-visual%20threats-blue.svg" alt="vThreats badge" align="right" height="30"/>
-
-**Author:** Laxmi Prasad Rath  
-**Date:** April 2025  
-**License:** MIT
-
+---
+output: github_document
 ---
 
-## Overview
+# vThreats <img src="https://img.shields.io/badge/status-developing-yellow" align="right" />
 
-`vThreats` is an R package designed to quantify and classify **visual threat intensity** at river locations, based on environmental and anthropogenic stressors such as fishing pressure, human activity, and hydrological variation. This tool is tailored for riverine ecological assessments and conservation planning.
+`vThreats` is an R package to calculate and classify visual threat intensity scores for any locations, based on observed stressors like fishing, human activity, and water level fluctuations.
 
----
+It supports both numeric and categorical threats, weighted scoring, and classification into low/moderate/high/severe categories.
 
-## Features
+## ✨ Features
 
-- Normalize multiple types of threats (numeric and categorical)
-- Apply weighted scoring based on observation frequency
-- Classify threat intensity (Low, Moderate, Severe)
-- Built-in example datasets and a vignette for guidance
+- Normalize threat values using max observed thresholds
+- Calculate composite threat intensity score (T)
+- Classify threat severity level
+- Includes example data and reproducible tests
 
----
+## 📦 Installation
 
-## Installation
-
-You can install the development version of `vThreats` directly from GitHub:
+You can install the development version from local:
 
 ```r
-# Install devtools if not already
-install.packages("devtools")
-
-# Install vThreats
-devtools::install_github("your-username/vThreats")
-
+# From your package folder
+devtools::install()
