@@ -14,9 +14,6 @@ Description: Provides tools for quantifying visual threat intensity at
 License: MIT + file LICENSE
 URL: https://github.com/rath-laxmiprasad/vThreats
 BugReports: https://github.com/rath-laxmiprasad/vThreats/issues
-Imports: 
-    dplyr,
-    ggplot2
 Suggests: 
     knitr,
     rmarkdown,
